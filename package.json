@@ -1,0 +1,64 @@
+{
+  "name": "vue-use-permission",
+  "version": "1.0.0",
+  "description": "Reactive Permissions API for Vue3.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "type-check": "tsc --strict --noEmit",
+    "format": "prettier --write src/",
+    "build": "unbuild",
+    "release": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:luoxiangfan/vue-use-permission.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "hooks",
+    "permissions",
+    "browser",
+    "navigator",
+    "permissions api",
+    "composition api",
+    "use permission",
+    "vue use permission"
+  ],
+  "author": "lxf <infiniment@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luoxiangfan/vue-use-permission/issues"
+  },
+  "homepage": "https://github.com/luoxiangfan/vue-use-permission#readme",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "unbuild": "^2.0.0",
+    "vue": "^3.5.13"
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
