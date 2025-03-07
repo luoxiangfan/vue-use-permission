@@ -1,6 +1,6 @@
 {
   "name": "vue-use-permission",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Reactive Permissions API for Vue3.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -50,9 +50,9 @@
   },
   "homepage": "https://github.com/luoxiangfan/vue-use-permission#readme",
   "devDependencies": {
-    "prettier": "^3.4.2",
-    "typescript": "^5.7.3",
-    "unbuild": "^3.3.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "unbuild": "^3.5.0",
     "vue": "^3.5.13"
   },
   "peerDependencies": {
