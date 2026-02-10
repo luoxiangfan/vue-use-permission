@@ -15,7 +15,6 @@ jobs:
     
     steps:
       - name: 自动合并
-        if: steps.wait-and-check.outputs.all_passed == 'true'
         run: |
           # 使用 GitHub CLI 合并
           gh pr merge ${{ github.event.pull_request.number }} \
