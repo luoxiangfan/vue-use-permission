@@ -50,8 +50,8 @@
   },
   "homepage": "https://github.com/luoxiangfan/vue-use-permission#readme",
   "devDependencies": {
-    "prettier": "^3.8.2",
-    "typescript": "^6.0.2",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3",
     "unbuild": "^3.6.1",
     "vue": "^3.5.32"
   },
